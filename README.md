@@ -1,10 +1,7 @@
 # Level 1: ROS2 Navigation Assignment-Akanksha Gangadhar Gore
 
-## Overview
-At ERIC Robotics, we’re big believers in building software with modularity. The nav2 stack reflects this perfectly with flexible, plugin-based framework, allowing you to pick and choose which pieces you need and run them independently. In this assignment, you’ll walk through the navigation workflow step by step—manually creating and calling actions—to bring an autonomous robot to life.
-
 **Here’s what to do:**
-1. We have shared some starter code for the 'Testbed-T1.0.0', a simple open-source robot developed by the team here at ERIC Robotics. Your task is to develop a new ROS2 package called `testbed_navigation` to manage the navigation workflow for this robot.
+1. Your task is to develop a new ROS2 package called `testbed_navigation` to manage the navigation workflow for this robot.
 2. However, rather than simply calling `nav2_bringup`, in this assignment you will manually build the required action components (i.e., using the `map_server`, `amcl`, `planner` plugins, and `bt_` plugins) to run ros2 navigation, by working directly with the respective `nav2` plugins.
 3. i.e., In the `testbed_navigation` package, write individual launch files to load a map, perform localization, and navigate using the plugins provided by `nav2`.
 4. Document your process so we can see how you tackled the task.
@@ -13,7 +10,6 @@ This assignment gives you hands-on experience with ROS2’s navigation plugins, 
 
 ### Deadline & submissions
 1. Four days (96 hrs) from the moment you accept the assignment.
-2. To submit your code, simply commit and push to your GitHub repository online. You can commit any number of times before your deadline.
 
 ## Repository Structure
 
@@ -60,7 +56,7 @@ To get started, you’ll need:
 2. Clone this repository:
    ```bash
    cd ~/assignment_ws/src
-   git clone <repository-url>
+   git clone https://github.com/RvtLabs/ROS2Assignment
    ```
 2. Build the workspace:
    ```bash
@@ -123,9 +119,3 @@ We’ll be looking for:
 ---
 
 We’re excited to see how you approach this task. Good luck, and happy coding! :)
-
-## Contact Info
-
-Name: akanksha gangadhar gore
-contact number:7666305788
-Email address:goreaakanksha777@gmail.com
