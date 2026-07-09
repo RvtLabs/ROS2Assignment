@@ -1,4 +1,4 @@
-# Level 1: ROS2 Navigation Assignment-Akanksha Gangadhar Gore
+# Level 1: ROS2 Navigation Assignment
 
 **Here’s what to do:**
 1. Your task is to develop a new ROS2 package called `testbed_navigation` to manage the navigation workflow for this robot.
