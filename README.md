@@ -1,3 +1,4 @@
+Completed assignment
 # Level 1: ROS2 Navigation Assignment
 
 **Here’s what to do:**
